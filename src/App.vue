@@ -21,8 +21,8 @@ export default
   methods:
   {
     navToggle: () => {
-      console.log('sasa');
       document.querySelector('.nav-links').classList.toggle('nav-active');
+      document.querySelector('.burger').classList.toggle('toggle');
     },
   },
 };
@@ -73,6 +73,18 @@ h1
   width:25px;
   height:3px;
   margin: 5px;
+}
+.toggle .line1
+{
+  transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2
+{
+opacity: 0;
+}
+.toggle .line3
+{
+ transform: rotate(45deg) translate(-5px,-6px);
 }
 @media screen and (max-width:768px){
 #app
