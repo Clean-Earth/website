@@ -4,7 +4,7 @@
     <h1 class="main-text">Don't Trash The World<br><span>RE{{textContent}}</span></h1>
   </div>
   <div class="main-image">
-    //Todo:Attribute this without losing visual appeal link->https://www.freepik.com/vectors/people'>People vector created by pch.vector - www.freepik.com
+    <!-- Todo:Attribute this without losing visual appeal link-> https://www.freepik.com/vectors/people'>People vector created by pch.vector - www.freepik.com -->
      <img alt="Illustration of woman and kid sorting garbage" src="../assets/main.jpg">
   </div>
  </div>
