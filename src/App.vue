@@ -1,30 +1,107 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <h1>Clean Earth</h1>
+    <ul class="nav-links">
+      <li>  <router-link to="/"   @click="navToggle()">Home</router-link></li>
+      <li><router-link to="/about" @click="navToggle()">About</router-link></li>
+      <li><router-link to="/about" @click="navToggle()" >Learn</router-link></li>
+      <li><router-link to="/about"  @click="navToggle()">Donate</router-link></li>
+    </ul>
+    <div class="burger" @click="navToggle()">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
   </div>
   <router-view/>
 </template>
+<script>
+export default
+{
+  methods:
+  {
+    navToggle: () => {
+      console.log('sasa');
+      document.querySelector('.nav-links').classList.toggle('nav-active');
+    },
+  },
+};
+</script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;0,800;1,900&display=swap');
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Poppins',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 }
-
-#nav {
-  padding: 30px;
+#nav
+{
+  display: flex;
+  justify-content: space-around;
+  background-color: forestgreen;
 }
-
-#nav a {
+#nav a
+{
+color: black;
+text-decoration: none;
+color: whitesmoke;
+font-size: 32px;
+}
+h1
+{
+  color: whitesmoke;
+}
+#nav ul{
+  list-style-type: none;
+}
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
   font-weight: bold;
-  color: #2c3e50;
 }
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+.burger
+{
+  display: none;
+}
+.burger div
+{
+  background-color: whitesmoke;
+  width:25px;
+  height:3px;
+  margin: 5px;
+}
+@media screen and (max-width:768px){
+#app
+{
+overflow-x: hidden;
+position: relative;
+}
+.nav-links
+{
+  display: flex;
+  flex-direction: column;
+  height: 92vh;
+  top:8vh;
+  right:0px;
+  width:50%;
+  background-color: forestgreen;
+  align-items: center;
+  position: absolute;
+  transform: translateX(100%);
+  transition: transform 0.5s ease-in;
+}
+.nav-active
+{
+  transform: translateX(0%);
+}
+.burger
+{
+  display: block;
+  margin: 2em;
+}
 }
 </style>
