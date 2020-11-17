@@ -1,10 +1,10 @@
 <template>
   <div id="nav">
-    <h1>Clean Earth</h1>
+    <h1 class="logo">Clean Earth</h1>
     <ul class="nav-links">
       <li>  <router-link to="/"   @click="navToggle()">Home</router-link></li>
       <li><router-link to="/about" @click="navToggle()">About</router-link></li>
-      <li><router-link to="/about" @click="navToggle()" >Learn</router-link></li>
+      <li><router-link to="/learn" @click="navToggle()" >Learn</router-link></li>
       <li><router-link to="/about"  @click="navToggle()">Donate</router-link></li>
     </ul>
     <div class="burger" @click="navToggle()">
@@ -35,7 +35,7 @@ export default
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: forestgreen;
 }
 #nav
 {
@@ -50,7 +50,7 @@ text-decoration: none;
 color: whitesmoke;
 font-size: 32px;
 }
-h1
+.logo
 {
   color: whitesmoke;
 }
