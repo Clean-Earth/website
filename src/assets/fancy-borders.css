@@ -1,0 +1,21 @@
+.cb {
+  border-radius: 68% 88% 69% 67% / 0% 0% 65% 60%;
+  border: 1px solid;
+  padding: 3em;
+}
+.cu {
+  border-radius: 68% 88% 100% 67% / 81% 70% 0% 4%;
+  border: 1px solid;
+  padding: 3em;
+}
+.bc {
+  border-radius: 68% 88% 69% 64% / 84% 93% 65% 60%;
+  border: 1px solid;
+  padding: 3em;
+}
+.sb {
+  border-radius: 68% 0% 69% 39% / 84% 100% 65% 57%;
+  border: 1px solid;
+  padding: 3em;
+}
+/* made with https://www.dailytoolz.com/fancy-border-radius-generator/ */
