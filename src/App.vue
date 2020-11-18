@@ -86,22 +86,15 @@ opacity: 0;
 {
  transform: rotate(45deg) translate(-5px,-6px);
 }
+footer a,footer a:visited,footer a:active
+{
+  color: forestgreen;
+}
 @media screen and (max-width:768px){
 #app
 {
 overflow-x: hidden;
 position: relative;
-}
-footer a
-{
-  color: forestgreen;
-}
-footer a:visited{
-  color: forestgreen;
-}
-footer a:active
-{
-  color: forestgreen;
 }
 .nav-links
 {
