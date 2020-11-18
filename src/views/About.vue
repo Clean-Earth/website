@@ -9,6 +9,7 @@
         <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
   </div>
+   <footer><a href="http://www.freepik.com">All Illustrations are Designed by pch.vector / Freepik</a></footer>
 </template>
 <style>
 .abt-image
