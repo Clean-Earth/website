@@ -92,6 +92,17 @@ opacity: 0;
 overflow-x: hidden;
 position: relative;
 }
+footer a
+{
+  color: forestgreen;
+}
+footer a:visited{
+  color: forestgreen;
+}
+footer a:active
+{
+  color: forestgreen;
+}
 .nav-links
 {
   display: flex;
