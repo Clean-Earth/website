@@ -1,4 +1,4 @@
-# clean_earth
+# Clean Earth
 
 ## Project setup
 ```
