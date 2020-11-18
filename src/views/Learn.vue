@@ -68,7 +68,7 @@ color:whitesmoke;
 {
 
 width:100vw;
-height:100px;
+height:300px;
 }
 }
 </style>

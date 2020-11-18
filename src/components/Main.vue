@@ -78,8 +78,8 @@ export default {
   .main-image img
   {
     margin: 1em;
-    width:450px;
-    height: 450px;
+    width:100vw;
+    height: 350px;
   }
 .text-content
 {

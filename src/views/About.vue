@@ -20,7 +20,7 @@
 {
 .abt-image
 {
-  width: 350px;
+  width: 100vw;
 }
 }
 </style>
