@@ -5,7 +5,7 @@
       <li>  <router-link to="/"   @click="navToggle()">Home</router-link></li>
       <li><router-link to="/about" @click="navToggle()">About</router-link></li>
       <li><router-link to="/learn" @click="navToggle()" >Learn</router-link></li>
-      <li><router-link to="/about"  @click="navToggle()">Donate</router-link></li>
+      <li><router-link to="/donate"  @click="navToggle()">Donate</router-link></li>
     </ul>
     <div class="burger" @click="navToggle()">
       <div class="line1"></div>
