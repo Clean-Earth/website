@@ -56,8 +56,8 @@ export default {
 }
 .main-image img
 {
-  width:650px;
-  height: 650px;
+  width:50vw;
+  height: 90vh;
 
 }
 .main-text
@@ -79,7 +79,7 @@ export default {
   {
     margin: 1em;
     width:100vw;
-    height: 350px;
+    height: 50vh;
   }
 .text-content
 {
