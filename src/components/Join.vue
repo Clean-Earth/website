@@ -1,0 +1,45 @@
+<template>
+<div class="join">
+    <div class="join-card">
+        <h1>Join the Movement</h1>
+      <div class="cards">
+        <font-awesome-icon :icon="['fab', 'youtube']"/>
+        <font-awesome-icon :icon="['fab', 'whatsapp']"/>
+        <font-awesome-icon :icon="['fab', 'telegram']"/>
+        <font-awesome-icon :icon="['fab', 'github']"/>
+      </div>
+        <div class="button"><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAfurf8pUMllaNUxTVTROMVo5RVdFRzZOMTk3S1lETi4u">
+        Become a Member</a></div>
+    </div>
+</div>
+</template>
+
+<style>
+.join
+{
+    display: flex;
+}
+.join-card
+{
+    border:5px solid forestgreen;
+    margin: 1em;
+    flex: 1;
+}
+.cards
+{
+    display: flex;
+    margin: 0.5em;
+    justify-content: space-between;
+    padding: 1em;
+    font-size: 3em;
+}
+.button
+{
+    background-color:whitesmoke;
+    color: forestgreen;
+    font-weight: bold;
+    border: 1em solid;
+    cursor: pointer;
+    font-size: 3em;
+}
+</style>
