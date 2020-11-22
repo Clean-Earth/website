@@ -8,8 +8,8 @@
         <font-awesome-icon :icon="['fab', 'telegram']"/>
         <font-awesome-icon :icon="['fab', 'github']"/>
       </div>
-        <div class="button"><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAfurf8pUMllaNUxTVTROMVo5RVdFRzZOMTk3S1lETi4u">
-        Become a Member</a></div>
+        <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAfurf8pUMllaNUxTVTROMVo5RVdFRzZOMTk3S1lETi4u"><div class="button">
+        Become a Member</div></a>
     </div>
 </div>
 </template>
