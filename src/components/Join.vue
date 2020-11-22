@@ -22,13 +22,12 @@
 .join-card
 {
     border:5px solid forestgreen;
-    margin: 1em;
+    margin: 0.5em;
     flex: 1;
 }
 .cards
 {
     display: flex;
-    margin: 0.5em;
     justify-content: space-between;
     padding: 1em;
     font-size: 3em;
