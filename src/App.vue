@@ -89,6 +89,12 @@ opacity: 0;
 footer a,footer a:visited,footer a:active
 {
   color: forestgreen;
+  text-decoration: none;
+}
+div a,div a:visited,div a:active
+{
+  color: forestgreen;
+  text-decoration: none;
 }
 @media screen and (max-width:768px){
 #app
