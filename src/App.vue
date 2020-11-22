@@ -1,6 +1,6 @@
 <template>
   <div id="nav">
-    <h1 class="logo">Clean Earth</h1>
+    <h1 class="logo"> <router-link to="/"> Clean Earth</router-link></h1>
     <ul class="nav-links">
       <li>  <router-link to="/"   @click="navToggle()">Home</router-link></li>
       <li><router-link to="/about" @click="navToggle()">About</router-link></li>
