@@ -44,7 +44,7 @@ export default
 #nav
 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: forestgreen;
 }
 #nav a
