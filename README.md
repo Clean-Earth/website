@@ -1,4 +1,4 @@
-# Clean Earth
+# Green Anchored
 
 ## Project setup
 ```
