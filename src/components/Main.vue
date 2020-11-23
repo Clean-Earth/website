@@ -7,7 +7,6 @@
      <img alt="Illustration of woman and kid sorting garbage" src="../assets/main.jpg">
   </div>
  </div>
-  <footer><a href="http://www.freepik.com/pch.vector">All Illustrations are Designed by pch.vector / Freepik</a></footer>
 </template>
 
 <script>

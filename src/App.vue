@@ -1,6 +1,6 @@
 <template>
   <div id="nav">
-    <h1 class="logo">Clean Earth</h1>
+    <h1 class="logo"> <router-link to="/"> Clean Earth</router-link></h1>
     <ul class="nav-links">
       <li>  <router-link to="/"   @click="navToggle()">Home</router-link></li>
       <li><router-link to="/about" @click="navToggle()">About</router-link></li>
@@ -89,6 +89,12 @@ opacity: 0;
 footer a,footer a:visited,footer a:active
 {
   color: forestgreen;
+  text-decoration: none;
+}
+div a,div a:visited,div a:active
+{
+  color: forestgreen;
+  text-decoration: none;
 }
 @media screen and (max-width:768px){
 #app
