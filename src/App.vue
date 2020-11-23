@@ -1,6 +1,6 @@
 <template>
   <div id="nav">
-    <h1 class="logo"> <router-link to="/"> Clean Earth</router-link></h1>
+     <img class="logo" src="./assets/logo.svg" alt="green anchored logo" @click="navtoHome">
     <ul class="nav-links">
       <li>  <router-link to="/"   @click="navToggle()">Home</router-link></li>
       <li><router-link to="/about" @click="navToggle()">About</router-link></li>
@@ -24,6 +24,10 @@ export default
       document.querySelector('.nav-links').classList.toggle('nav-active');
       document.querySelector('.burger').classList.toggle('toggle');
     },
+    // This is a workaround since i have no idea how to fix the layout changes when
+    // wrapping an img in a link
+    // Should fix this for better accesibility
+    navtoHome() { return this.$router.push('/'); },
   },
 };
 </script>
@@ -45,14 +49,14 @@ export default
 }
 #nav a
 {
-color: black;
 text-decoration: none;
 color: whitesmoke;
 font-size: 32px;
 }
 .logo
 {
-  color: whitesmoke;
+  height: 6em;
+  width:20em;
 }
 #nav ul{
   list-style-type: none;
