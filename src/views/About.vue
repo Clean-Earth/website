@@ -41,9 +41,18 @@ export default {
   width: 700px;
   height: 450px;
 }
+.about
+{
+  text-align: center;
+}
 .abt-text
 {
-  border: 0.4em solid forestgreen;
+  color: whitesmoke;
+  background-color: forestgreen;
+  width:70%;
+  margin:0 auto;
+  padding: 1em;
+  align-self: center;
 }
 .abt-text p
 {
@@ -60,6 +69,14 @@ export default {
 .abt-image
 {
   width: 100vw;
+}
+.abt-text
+{
+  width:90%;
+}
+.abt-text p
+{
+  font-size: 1em;
 }
 }
 </style>
