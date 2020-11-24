@@ -35,7 +35,7 @@ export default {
 }
 .learn-img
 {
-    width:450px;
+    width:100%;
     height: 450px;
 }
 .learn-text
@@ -44,13 +44,16 @@ export default {
     flex: 0.7;
     justify-content: space-around;
     height: max-content;
+    align-items: center;
     flex-wrap: wrap;
 }
 .b
 {
-margin: 1em;
+margin:0.5em;
 background-color:forestgreen;
 color:whitesmoke;
+box-sizing: border-box;
+width: 25%;
 }
 .hidden
 {
@@ -61,12 +64,16 @@ color:whitesmoke;
 }
 .b:hover .hidden
 {
-    display: block;
+    display: flex;
 }
 @media screen and (max-width: 768px){
 .flex-wrapper
 {
     flex-direction: column;
+}
+.b
+{
+    width: max-content;
 }
 .learn-img
 {
