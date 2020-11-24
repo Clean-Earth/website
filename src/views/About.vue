@@ -12,9 +12,29 @@
           and deliver innovative solutions that protect communities, wildlife, and their ecosystems;
           </p>
       </div>
+      <h1>Upcoming Events</h1>
+      <div class="event-section">
+      <EventCard/>
+      <EventCard/>
+      </div>
+      <h1>Past Activities</h1>
+      <div class="event-section">
+      <EventCard/>
+      <EventCard/>
+      <EventCard/>
+      </div>
   </div>
    <footer><a href="http://www.freepik.com">All Illustrations are Designed by pch.vector / Freepik</a></footer>
 </template>
+
+<script>
+import EventCard from '@/components/EventCard.vue';
+
+export default {
+  components: { EventCard },
+};
+</script>>
+
 <style>
 .abt-image
 {
@@ -28,6 +48,12 @@
 .abt-text p
 {
  font-size: 1.5em;
+}
+.event-section
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 @media screen and (max-width:768px)
 {
